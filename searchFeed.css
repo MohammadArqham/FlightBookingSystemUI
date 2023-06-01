@@ -1,0 +1,46 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+.feedCont{
+    margin-top: 3rem;
+    display: flex;
+    
+    align-items:stretch;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.card{
+    margin: 0.5rem 3rem;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: -18px 17px 51px -21px rgba(112,112,112,0.7);
+}
+.card div span{
+    
+    font-size: 18pt;
+    font-weight: 300;
+}
+.card div  p{
+    color: grey;
+    margin: 1rem 0;
+}
+.book button{
+    border: none;
+    padding: 0.3rem 1rem;
+    background: mediumslateblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.price span{
+    font-weight: 10000;
+    
+}
